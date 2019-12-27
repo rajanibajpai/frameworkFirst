@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testCases.TestCase_01]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="testCases.TestCase_01">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginEhallpass"/>
+        </methods>
+      </class> <!-- testCases.TestCase_01 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [testCases.TestCase_01] -->
