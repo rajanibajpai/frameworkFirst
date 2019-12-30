@@ -14,7 +14,6 @@ public class BaseClass {
 	//will run at starting of the class if included
 	@BeforeClass
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/Drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		
 	}
